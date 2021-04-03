@@ -86,6 +86,6 @@ with open(PyBank_csv, "w") as txtfile:
     txtfile.write("\n")
     txtfile.write("Average Change: $" + str(average_ProfitLoss))
     txtfile.write("\n")
-    txtfile.write("Greatest Increase in Profits: Feb-2012 (" + str(greatest_increase) + ")")
+    txtfile.write("Greatest Increase in Profits: Feb-2012 ($" + str(greatest_increase) + ")")
     txtfile.write("\n")
-    txtfile.write("Greatest Decrease in Profits: Sep-2013 (" + str(greatest_decrease) + ")")
+    txtfile.write("Greatest Decrease in Profits: Sep-2013 ($" + str(greatest_decrease) + ")")
